@@ -25,11 +25,3 @@ function onClear() {
     <FormComponent :form-data="currentTemplate" @submit="onSubmit" @cancel="onClear" />
   </main>
 </template>
-
-<style scoped lang="sass">
-@media (min-width: 1024px)
-  main
-    min-height: 100vh
-    display: flex
-    align-items: center
-</style>
